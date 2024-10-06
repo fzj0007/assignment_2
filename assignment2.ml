@@ -1,5 +1,4 @@
 
-(* Problem Set #7d - Page 163 from the Textbook *)
 (* Using the grammar below show a parse tree and a leftmost derivation for the following statement: A = B * (C * (A + B)) *)
 
 (* Grammar: *)
@@ -47,9 +46,9 @@ let main () =
   foo !u 13;
   Printf.printf "%d\n" !u
 
-(* Static Scope: 180 *)
-(* Dynamic Scope with Deep Binding: 69 *)
-(* Dynamic Scope with Shallow Binding: 69 *)
+(* a. Using Static Scope, what is printed to the screen? *)
+(* b. Using Dynamic Scope with Deep Binding, what is printed to the screen?  *)
+(* c. Using Dynamic Scope with Shallow Binding, what is printed to the screen? *)
 
 (* --------------------- *)
 
